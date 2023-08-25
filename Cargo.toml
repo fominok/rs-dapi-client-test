@@ -1,0 +1,10 @@
+[package]
+name = "rs-dapi-client-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rs-dapi-client = { path = "../platform/packages/rs-dapi-client" }
+dapi-grpc = { path = "../platform/packages/dapi-grpc" }
+tokio = { version = "1.32.0", features = ["full"] }
+tracing-subscriber = "0.3.17"
